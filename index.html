@@ -12,10 +12,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!--
-    Homepage only. Friends will add the other pages later.
-    Each new page should copy this header and footer, and link style.css.
-  -->
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -25,20 +21,8 @@
         <span>Oppulance Backery</span>
       </a>
 
-      <input class="nav-toggle" type="checkbox" id="nav-toggle">
-      <label class="nav-toggle-label" for="nav-toggle">
-        <span class="visually-hidden">Open menu</span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-
       <nav class="site-nav" aria-label="Main">
         <a href="index.html" aria-current="page">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#products">Our Products</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact Us</a>
       </nav>
     </div>
   </header>
@@ -50,7 +34,6 @@
           <p class="eyebrow">Neighbourhood bakery</p>
           <h1>Freshly baked warmth, made by hand.</h1>
           <p class="lede">Oppulance Backery bakes small batches of cakes, bread, and pastries each morning. The recipes stay simple, the ingredients stay fresh, and the welcome stays genuine.</p>
-          <a class="button" href="#products">Explore Our Products</a>
           <ul class="hero-points">
             <li>Baked fresh daily</li>
             <li>Small batches</li>
@@ -59,179 +42,6 @@
         </div>
         <div class="hero-visual">
           <img src="images/hero.svg" alt="A bakery counter with a celebration cake, a loaf of bread, and a croissant" width="640" height="560">
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="wrap about-grid">
-        <div class="about-visual">
-          <img src="images/about.svg" alt="A wooden table set with flour, eggs, berries, and a mixing bowl" width="560" height="460">
-        </div>
-        <div class="about-copy">
-          <p class="eyebrow">About Us</p>
-          <h2>A bakery built around slow mornings.</h2>
-          <p>Oppulance Backery began with a simple idea: a bakery should feel like a warm kitchen. Our shelves hold celebration cakes, everyday loaves, and pastries finished while they are still warm.</p>
-          <p>Each bake uses a short list of ingredients we trust — butter, flour, eggs, fruit, and time. Nothing is rushed, and nothing stays on the counter longer than it should.</p>
-          <a class="text-link" href="#craft">How we bake</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="products" class="section section-tint">
-      <div class="wrap">
-        <div class="section-heading">
-          <p class="eyebrow">Our Products</p>
-          <h2>From the oven to your table.</h2>
-          <p>A sample of what we bake through the week. Prices are examples for this homepage.</p>
-        </div>
-
-        <div class="product-grid">
-          <article class="product-card">
-            <img src="images/cake.svg" alt="Two-layer celebration cake with caramel icing and berries" width="400" height="280">
-            <div class="product-body">
-              <h3>Celebration Cake</h3>
-              <p>Vanilla sponge, caramel buttercream, and fresh berries.</p>
-              <p class="price">$42</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="images/cupcake.svg" alt="Three cupcakes with swirled frosting and pastel wrappers" width="400" height="280">
-            <div class="product-body">
-              <h3>Vanilla Cloud Cupcakes</h3>
-              <p>Soft vanilla cakes with a light caramel swirl.</p>
-              <p class="price">$3.50</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="images/bread.svg" alt="A scored country loaf dusted with flour" width="400" height="280">
-            <div class="product-body">
-              <h3>Country Loaf</h3>
-              <p>A slow-risen bread with a crackly crust.</p>
-              <p class="price">$8</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="images/cookies.svg" alt="A stack of golden brown butter cookies" width="400" height="280">
-            <div class="product-body">
-              <h3>Brown Butter Cookies</h3>
-              <p>Crisp edges, soft centres, and a pinch of salt.</p>
-              <p class="price">$2.50</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="images/doughnut.svg" alt="A glazed doughnut with caramel stripes" width="400" height="280">
-            <div class="product-body">
-              <h3>Glazed Doughnut</h3>
-              <p>Yeast doughnut with a thin caramel glaze.</p>
-              <p class="price">$3</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="images/pastry.svg" alt="An almond croissant with sliced almonds on top" width="400" height="280">
-            <div class="product-body">
-              <h3>Almond Croissant</h3>
-              <p>Flaky pastry, almond cream, and toasted flakes.</p>
-              <p class="price">$4.50</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="craft" class="section craft">
-      <div class="wrap">
-        <div class="section-heading section-heading-light">
-          <p class="eyebrow">Why Oppulance Backery</p>
-          <h2>Fresh ingredients, honest quality, and handcrafted bakes.</h2>
-        </div>
-        <div class="craft-grid">
-          <article class="craft-card">
-            <img src="images/icon-ingredients.svg" alt="" width="64" height="64">
-            <h3>Fresh ingredients</h3>
-            <p>Butter, eggs, fruit, and flour are chosen for flavour and used while they are at their best.</p>
-          </article>
-          <article class="craft-card">
-            <img src="images/icon-quality.svg" alt="" width="64" height="64">
-            <h3>Quality in every batch</h3>
-            <p>We bake in small amounts so texture, taste, and finish stay consistent from the first tray to the last.</p>
-          </article>
-          <article class="craft-card">
-            <img src="images/icon-handmade.svg" alt="" width="64" height="64">
-            <h3>Handcrafted products</h3>
-            <p>Dough is mixed, shaped, and finished by hand. Cakes are decorated for the occasion, not from a mould.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="gallery" class="section">
-      <div class="wrap">
-        <div class="section-heading">
-          <p class="eyebrow">Gallery</p>
-          <h2>A look inside the bakery.</h2>
-        </div>
-        <div class="gallery-grid">
-          <figure>
-            <img src="images/gallery-counter.svg" alt="The bakery counter arranged with cakes and pastries" width="640" height="720">
-            <figcaption>The morning counter</figcaption>
-          </figure>
-          <figure>
-            <img src="images/gallery-bread.svg" alt="Country loaves cooling in a basket" width="480" height="340">
-            <figcaption>Loaves cooling</figcaption>
-          </figure>
-          <figure>
-            <img src="images/gallery-cake.svg" alt="A celebration cake ready for collection" width="480" height="340">
-            <figcaption>Cakes for celebrations</figcaption>
-          </figure>
-          <figure>
-            <img src="images/gallery-pastry.svg" alt="A tray of croissants and glazed doughnuts" width="480" height="340">
-            <figcaption>Pastry tray</figcaption>
-          </figure>
-          <figure>
-            <img src="images/gallery-cookies.svg" alt="Cookies cooling on a rack" width="480" height="340">
-            <figcaption>Cookies on the rack</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section section-tint">
-      <div class="wrap contact-grid">
-        <div class="contact-card">
-          <p class="eyebrow">Contact Us</p>
-          <h2>Come in, or send a note.</h2>
-          <p>Visit the bakery for bread still warm from the oven, or write to us about celebration cakes.</p>
-          <address>
-            <p><strong>Oppulance Backery</strong><br>18 Willow Lane<br>Riverside</p>
-            <p><a href="mailto:hello@oppulancebackery.example">hello@oppulancebackery.example</a><br><a href="tel:+15550142280">(555) 014-2280</a></p>
-          </address>
-        </div>
-        <div class="hours-card">
-          <h3>Opening hours</h3>
-          <dl class="hours">
-            <div>
-              <dt>Monday</dt>
-              <dd>Closed</dd>
-            </div>
-            <div>
-              <dt>Tuesday – Friday</dt>
-              <dd>7:00 am – 6:00 pm</dd>
-            </div>
-            <div>
-              <dt>Saturday</dt>
-              <dd>8:00 am – 4:00 pm</dd>
-            </div>
-            <div>
-              <dt>Sunday</dt>
-              <dd>8:00 am – 2:00 pm</dd>
-            </div>
-          </dl>
         </div>
       </div>
     </section>
@@ -248,10 +58,6 @@
       </div>
       <nav aria-label="Footer">
         <a href="index.html">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#products">Our Products</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact Us</a>
       </nav>
       <p class="footer-note">18 Willow Lane, Riverside<br>Tue–Fri 7:00 am – 6:00 pm</p>
     </div>
